@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  html{
+    font-family: 'Stylish', sans-serif;
+   
+  }
+}
+
+body{
+  background-image: url('./back.jpg');
+  background-size: cover;
+  
+}
